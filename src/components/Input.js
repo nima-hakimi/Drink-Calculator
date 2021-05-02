@@ -1,9 +1,16 @@
 import React from 'react'
 
-const Input = () => {
+const Input = (props) => {
+    const textAreaChange = (event) => props.setMultiplier(event.target.value)
+    const style = {
+        marginTop: "1em",
+        width: "17.5em",
+        height: "2em"
+    }
+
     return (
-        <div className="input">
-            <input type="number" min="0" placeholder="Antall drinks du skal lage" />
+        <div>
+            <input style={style} type="textarea" onChange={textAreaChange} />
         </div>
     )
 }
