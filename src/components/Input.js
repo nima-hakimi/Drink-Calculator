@@ -4,8 +4,9 @@ const Input = (props) => {
     const textAreaChange = (event) => props.setMultiplier(event.target.value)
     const style = {
         marginTop: "1em",
-        width: "17.5em",
-        height: "2em"
+        width: "15em",
+        height: "32px",
+        paddingLeft: 8
     }
 
     return (

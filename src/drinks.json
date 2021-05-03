@@ -1,13 +1,69 @@
 {
     "Mojito": {
-        "dl Tequila": 0.4,
-        "limes": 1,
-        "mint leafs": 3,
-        "dl club soda": 2
+        "id": 0,
+        "ingredients": {
+            "dl Tequila": 0.4,
+            "limes": 1,
+            "mint leafs": 3,
+            "dl club soda": 2
+        }
     },
+    
+    "Margarita": {
+        "id": 1,
+        "ingredients": {
+            "dl Blanco tequila": 1.2,
+            "dl Cointreau": 0.6,
+            "dl Lime juice": 0.45,
+            "Table spoon": 1
+        }
+    },
+
+    "Bloody Mary": {
+        "id": 2,
+        "ingredients": {
+            "Teaspoon": 1,
+            "dl Vodka": 0.45,
+            "dl Tomato juice": 0.9,
+            "dl Lemon juice": 0.15,
+            "Dashes of Worcestershire sauce": 2
+        }
+    },
+
+    "Irish Coffee": {
+        "id": 3,
+        "ingredients": {
+            "dl Irish whiskey": 0.4,
+            "dl Hot coffee": 0.8,
+            "dl Fresh cream": 0.3,
+            "Table spoon of bround sugar": 1
+        }
+    },
+
+    "Gin and tonic": {
+        "id": 4,
+        "ingredients": {
+            "dl Gin": 0.6,
+            "dl Tonic water": 1.2,
+            "Lime wedge, garnish": 1
+        }
+    },
+
+    "Pina colada": {
+        "id": 5,
+        "ingredients": {
+            "dl Pineapple juice": 1.2,
+            "dl White rum": 0.6,
+            "dl Coconut cream": 0.6
+        }
+    },
+
     "Moscow Mule": {
-        "dl Vodka": 0.4,
-        "dl Ginger Ale": 2,
-        "limes": 1
+        "id": 6,
+        "ingredients": {
+            "dl Vodka": 0.4,
+            "dl Ginger Ale": 2,
+            "limes": 1
+        }
     }
 }
